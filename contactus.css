@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Rubik:wght@300;400&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@300;400&family=Space+Mono&display=swap');
+
+body, span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Rubik', sans-serif;
+}
+
+/*  Begain Custom Style  */
+.main-header .container-fluid,
+.slider-section .container-fluid {
+    max-width: 1480px;
+}
+
+/* Menu */
+ul.our-primary-menu {
+    position:relative;
+    right:20px;
+}
+
+    
+
+ ul.our-primary-menu li a {
+     text-decoration: none;
+     display: inline-block;
+     padding: 10px 20px;
+     border:1px ;
+     color: rgb(179, 203, 45);
+     font-size: 15pt;
+     font-weight: 500;
+     border-radius:5px;
+     height: 50px;
+ }
+ ul.our-primary-menu li a:hover {
+      background-color:rgb(195, 118, 118);
+      color:white;
+  }
+  /* Fisrt-section */
+  .first-section{
+      background-image: url("contact/backcover.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+      height: auto;
+      width: 100%;
+  }
+  .first-section1{
+      color: rgb(239, 239, 237);
+      text-align: center;
+      background-color: rgba(64, 62, 58, 0.5);
+  }
+  .first-section1 .col{
+      margin-top: 40px;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  .first-section1 .col h1{
+    font-family: 'Updock', cursive;
+    font-size: 70pt;
+  }
+  
+  .first-section1 .col h2{
+    font-size: 50pt;
+  }
+
+
+@media only screen and (max-width: 500px){
+  .first-section1 .col h2{
+    font-size: 30pt;
+  }
+}
+
+/* Contact */
+
+.contactdetail{
+    background-color: rgba(64, 62, 58, 0.5);
+    color: white;
+}
+.contact1{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    padding-top: 5%;
+    background-color: rgba(64, 62, 58, 0.8);
+    margin-left: 35%;
+}
+.contact11{
+    width: 50%;
+    border-right: 1px solid white;
+}
+.contact11 a{
+    color: whitesmoke;
+}
+.contact12{
+    width: 50%;
+}
+.contact12 a{
+    color: whitesmoke;
+}
+.contact2{
+    text-align: center;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: rgba(64, 62, 58, .8);
+    border-top: 1px solid white;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+.contact2 a{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1401px){
+    .contact1{
+        width: 50%;
+    }
+    .contact2{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1078px){
+    .contact1{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .contact2{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 916px){
+    .contact1{
+        width: 70%;
+        margin-left: 20%;
+    }
+    .contact2{
+        width: 70%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 772px){
+    .contact1{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .contact2{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 772px){
+    .contact1{
+        width: 80%;
+        display: block;
+    }
+    .contact2{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .contact11{
+        border-bottom: 1px solid white;
+        border-right: 0px;
+        width: 100%;
+    }
+    .contact12{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 356px){
+    .mail{
+        font-size: 13pt;
+    }
+}
+/* googlemap */
+.googlemap{
+    width: 100%;
+  }
+  .googlemap iframe{
+    width: 100%;
+  }
+
+/* Finish */
+
+.finish {
+    height: 70px;
+    max-width: 1880px;
+    background-color: black;
+  }
+  
+    .finish h6 {
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        color: whitesmoke;
+        position: relative;
+        top: 30px;
+    }
+    .finish span {
+        color: crimson;
+    }
+  

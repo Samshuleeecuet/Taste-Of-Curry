@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></link>
+    <link rel="icon" href="home/logo.png">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104432405585967");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="Ztcu3rL0"></script>
+
+
+    <div class="first-section">
+            <nav class="navbar navbar-expand-lg navbar-dark main-header sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="home/logo.png" alt="" style="height:70px;width:70px;border-radius: 50%;">
+                    </a>
+
+                    <button class="navbar-toggler navbar-toggler-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: whitesmoke; font-size: 28px;"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto our-primary-menu bg-secondary" style="border-radius: 10px; ">
+                            <li><a href="home.en.html">Home</a></li>
+                            <li>
+                                <a href="upsala.en.html">Uppsala</a>
+                            </li>
+                            <li>
+                                <a href="contactus.en.html">Contact Us</a>                      
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid first-section1">
+                <div class="col">
+                <h1>Indian Restaurent</h1>
+                </div>
+                <div class="col">
+                <h2>FRESH,FAST,</h2>
+                <h2>& DELICIOUS</h2>
+                </div>
+                <div class="section1button">
+                    <a href="upsala.en.html"><button type="button" >Uppsala</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="second-section container-fluid">
+            <div class="second-section1">
+                <img src="home/second-section.jpg">
+                </div>
+            <div class="second-section2">
+                <h3>Indian Food at It's Best</h3>
+                <h1>TASTE OF CURRY</h1>
+                <p>Every now and then, everyone likes a indian food. It is an inevitable fact of life. No matter who you are, there is nothing you can do when the spicy, creamy, lip-smacking craving sets in. Nothing, of course, except to give up! To take your taste buds on an unforgettable Indian adventure</p>
+            </div>
+        </div>
+        <div class="third-section container-fluid">
+            <div class="thrird-section1">
+                <div class="thrird-section1img">
+                    <img src="home/home-v2-icon-1.png">
+                </div>
+                <div class="thrird-section1title third-title">
+                    <h4>Best atmosphere</h4>
+                    <p>Vi ser till att du njuter av mat på lugna och mysiga och hygieniska platser.</p>
+                </div>
+            </div>
+            <div class="thrird-section2">
+                <div class="thrird-section2img">
+                    <img src="home/home-v2-icon-2.png">
+                </div>
+                <div class="thrird-section2title third-title">
+                    <h4>High food quality</h4>
+                    <p>Vi ser alltid till att vi serverar högkvalitativ mat från råvaror till kokta.</p>
+                </div>
+
+            </div>
+            <div class="thrird-section3">
+                <div class="thrird-section3img">
+                    <img src="home/home-v2-icon-3.png">
+                </div>
+                <div class="thrird-section3title third-title">
+                    <h4>Healthy on a budget</h4>
+                    <p>Njut av indisk mat med olika smaker och smak till pris som är hälsosamt på din budget</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid fourth-section">
+            <div class="fourth-section1">
+                <img src="home/fourth-section.jpg">
+            </div>
+            <div class="fourth-section2">
+               <div class="fourth-section2title">
+                 <h4>Discover more</h4>
+                 <h1>High professional service</h1>
+                 <p>We have professionals from cooking to serving at TASTE OF CURRY to give you high quality food and best service.</p>
+                 <br>
+                 <p><i class="fa-solid fa-check"></i>&nbsp Short waiting time</p>
+                 <p><i class="fa-solid fa-check"></i>&nbsp Focused attention of the staff</p>
+                 <p><i class="fa-solid fa-check"></i>&nbsp Mat av hög kvalitet</p>
+                 <br>
+                 <div class="section4button">
+                    <a href="upsala.en.html"><button type="button" >Uppsala</button></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        <div class="container-fluid six-section">
+            <div class="six-section1">
+                <h6>Välj en maträtt</h6>
+                <h2>WHAT IS INCLUDED IN OUR MENU</h2>
+            </div>
+            <div class="six-section2">
+                <div class="six-section2-box1">
+                    <div class="six-section2-detail">
+                        <div class="row">
+                            <div class="title">
+                                <h2>SMÅTT & GOTT</h2>
+                                <p>Our starters are exclusively vegetarian and are prepared with balanced, nutritious and innovative.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <br>
+                                <h2>TANDOORI & SIZLARÄTTER</h2>
+                                <p>Sizzler dish marinated with indian spices & grilled in clay oven served hot with steak salad & masala sauce</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <br>
+                                <h2>TIKKA MASALA RÄTTER</h2>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <br>
+                                <h2>BALTIRÄTTER</h2>
+                                <p>Grilled chicken filet / Lamb / Beef / Scampi added with fresh ginger, garlic, roasted onion, bell pepper, tomato & coriander in Balti sauce</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <br>
+                                <h2>CURRYRÄTTER</h2>
+                                <p>Choose between chicken, lamb, or beef on all curries dishes</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <br>
+                                <h2>KORAIRÄTTERNA</h2>
+                                <p>Cooked with fresh pepper, onion, tomato, ginger, garlic & coriander in tomato sauce</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <br>
+                                <h2>Kalops</h2>
+                                <p>Serve with boiled potatoes, boiled carrots, pickled beets and possibly bread.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title">
+                                <h2>och många fler</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="six-section2-box2">
+                    <img src="home/six-section.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid comreview">
+            <h1>Customer's Review</h1>
+        </div>
+
+        <div class="fb-comments" data-href="http://127.0.0.1:5500/home.html" data-width="100%" data-numposts="5"></div>
+
+
+        <div class="container-fluid finish">
+            <h6><span>Taste of Curry</span> | © 2022 All rights reserved.</h6>
+        </div>
+        <div class="dropdown fixed-bottom">
+            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-language fa-2x" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="home.en.html">English</a>
+                <a class="dropdown-item" href="home.html">Svenska</a>
+            </div>
+        </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
